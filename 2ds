@@ -1,0 +1,249 @@
+body {
+ max-width:40em; padding:0 1em; 
+}
+  h1 {
+ text-align:center; font-size:1.3em; padding-top:1em; margin:0 0 .5em; 
+}
+  a {
+ color:#333; text-decoration:none; border-bottom:1px solid #aaa; padding:.1em .2em; 
+}
+  #footer {
+ 
+margin-top:2em; text-align:center; 
+}
+  #permalink {
+ margin-top:7px; float:right; padding:0; 
+}
+  pre {
+ border:3px double green; background:#eee; padding:1em; 
+}
+  .warning {
+ background:#fdfd9a; border-color:#f89406; 
+}
+  input {
+ 
+background:#eee; border:3px double grey; width:100%; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; display:block; text-align:center; margin:1em 0 .5em; padding:.7em; 
+}
+  label {
+ display:block; 
+cursor:help; 
+}
+  code,
+input {
+ font-family:Monaco,
+ monospace; font-size:.9em; white-space:pre-wrap; word-wrap:break-word; 
+}
+  mark {
+ background:#f8f5bc; padding:.2em; 
+}
+  .warning mark {
+ background:#FFC0CB; 
+}
+  p {
+ overflow:hidden; 
+}
+  
+#non-ascii {
+ display:inline; width:auto; 
+}
+  h2 {
+ text-align:center; font-size:1em; 
+}
+  textarea {
+ font-family:Monaco,
+ Consolas,
+ monospace; border:3px double green; background:#90ee90; width:100%; -moz-box-sizing:border-box; 
+-webkit-box-sizing:border-box; box-sizing:border-box; display:block; resize:vertical; min-height:9.5em; margin:1em 0 .5em; padding:.7em; 
+}
+  code {
+ border:1px dotted #666; font-family:Monaco,
+ Consolas,
+ monospace; font-size:.9em; 
+white-space:pre-wrap; word-wrap:break-word; padding:.2em; 
+}
+  blockquote {
+ border-left:.5em solid #e3e3e3; padding-left:10px; margin:0 0 1em; 
+}
+  dt {
+ font-weight:700; font-style:italic; 
+}
+  #output a {
+ float:right; 
+}
+  #output 
+p:first-child {
+ margin-top:0; 
+}
+  hgroup h2 {
+ text-align:center; font-weight:700; 
+}
+  h2 code,
+p code {
+ border:1px solid grey; background:#f0f0f0; padding:.2em; 
+}
+  var {
+ background:#90ee90; padding:.2em; 
+}
+  .element {
+ color:#036; 
+}
+  
+.attribute,
+.property {
+ color:#006; 
+}
+  .parens {
+ color:#090; 
+}
+  .symbol {
+ color:#393; 
+}
+  .quote {
+ color:#36c; 
+}
+  div {
+ display:inline; border:1px dotted #666; padding:.2em; 
+}
+  b {
+ font-weight:400; 
+}
+  a,
+label {
+ color:#333; 
+text-decoration:none; border-bottom:1px solid #aaa; cursor:pointer; padding:.1em .2em; 
+}
+  .method {
+ color:#606; 
+}
+  iframe {
+ border:0; width:100%; height:150px; resize:vertical; 
+}
+  h2:before {
+ content:'<!-- '; 
+}
+  h2:after {
+ 
+content:' -->'; 
+}
+  code,
+h2 {
+ font-family:Monaco,
+ monospace; 
+}
+  #empty-comment {
+ display:none; font-weight:700; 
+}
+  html,
+input,
+hgroup h2,
+html,
+textarea,
+html,
+input,
+html,
+html,
+textarea,
+h2 {
+ font:1em/1.6 sans-serif; 
+}
+  
+a:hover,
+a:focus,
+a:hover,
+a:focus,
+label:hover {
+ color:#fff; background:#36c; border-color:#036; 
+}
+  i,
+em {
+ font-style:normal; 
+}
+  
+#valid.show,
+#message.show,
+#es3.show,
+#unicode-3.show,
+#browser.show,
+#escaped-reserved-word.show,
+#immutable-properties.show,
+#zero-width.show,
+#whitespace.show,
+#supplementary-characters.show,
+#empty.show {
+ display:block; 
+}
+  
+#valid.hide,
+#message.hide,
+.hide,
+#es3,
+#es3,
+#unicode-3,
+#browser,
+#escaped-reserved-word,
+#immutable-properties,
+#zero-width {
+ display:none; 
+}
+  .invalid,
+.fail,
+.invalid,
+:invalid,
+pre.fail,
+#output.fail {
+ background:#ffb6c1; 
+border-color:red; 
+}
+  #permalink,
+textarea,
+code,
+#output a,
+textarea,
+code,
+#permalink,
+code,
+textarea,
+code {
+ font-family:Monaco,
+ Consolas,
+ monospace; 
+}
+  strong,
+#output {
+ border:3px double green; background:#90ee90; padding:.5em; 
+}
+  
+#es3.show,
+#empty-comment.show {
+ display:inline; 
+}
+  ul,
+#output p:last-child,
+#output ul:last-child {
+ margin-bottom:0; 
+}
+  #invalid,
+#whitespace,
+#supplementary-characters,
+#empty {
+ display:none; font-weight:700; color:#b00b00; 
+}
+  
+.comment,
+.comment,
+#empty-comment,
+h2 {
+ font-style:italic; color:#060; 
+}
+  @media min-width 42em {
+ html {
+ font-size:1.2em; background:#c4c4c4; height:100%; 
+}
+  body {
+ min-height:100%; background:#fff; border:solid #aaa; border-width:0 
+1px; margin:0 auto; padding:0 2em; 
+}
+ 
+}
+
+
