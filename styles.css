@@ -1,13 +1,10 @@
-body {
- max-width:40em; padding:0 1em; 
-}
   h1 {
  text-align:center; font-size:1.3em; padding-top:1em; margin:0 0 .5em; 
 }
   a {
  color:#333; text-decoration:none; border-bottom:1px solid #aaa; padding:.1em .2em; 
 }
-  #footer {
+  #footer,footer {
  
 margin-top:2em; text-align:center; 
 }
@@ -103,6 +100,14 @@ p code {
 }
   div {
  display:inline; border:1px dotted #666; padding:.2em; 
+}
+
+body #container{
+  border: none;
+  padding: none;
+  display: block;
+  margin: 0 auto;
+  min-width: 70%;
 }
   b {
  font-weight:400; 
@@ -240,8 +245,15 @@ h2 {
  font-size:1.2em; background:#c4c4c4; height:100%; 
 }
   body {
- min-height:100%; background:#fff; border:solid #aaa; border-width:0 
-1px; margin:0 auto; padding:0 2em; 
+/* 
+  max-width:40em; 
+  padding:0 1em; 
+  min-height:100%; 
+  background:#fff; 
+  border:solid #aaa; 
+  border-width:0 1px; 
+  margin:0 auto; 
+  padding:0 2em;*/ 
 }
  
 }
